@@ -1,0 +1,112 @@
+[
+  {
+    "kind": "Research",
+    "title": "Co-designing Intelligent Assistance with People Living with Dementia",
+    "hook": "How should an intelligent assistant work for someone whose abilities are changing? We co-designed it with people living with MCI or dementia, from a shared leaving-home scenario to the use cases that matter most in their own lives.",
+    "description": "How should an intelligent assistant work for someone whose abilities are changing? Rather than deciding for people living with mild cognitive impairment (MCI) or dementia, we designed it with them.\n\n• Study design: Designed and developed the study protocol. Defined what each design card covers (what a system can sense, what it can infer, how it can assist or act, and how it communicates) and co-created the cards with collaborators in Figma, as probes for brainstorming.\n• Co-design sessions: Conducted one-on-one remote co-design sessions (Zoom, FigJam). Cards were personalized first to a shared use case, a technology that reminds you what to take or do as you leave the house, and then to each participant's own meaningful use case, a situation from their life they wanted to design for. Probed the reasoning behind every choice: how it would help today and in the future, what concerns it raised, and what role care partners should play.\n• Analysis: Applied reflexive thematic analysis. Independently coded and memoed transcripts first, then worked with the research team to discuss, refine, and finalize themes, testing counterexamples and checking quotes against the data.",
+    "image": "assets/images/projects/co-design.svg",
+    "tags": [
+      "Human-Computer Interaction (HCI)",
+      "Accessibility",
+      "Co-design",
+      "Design Cards",
+      "Reflexive Thematic Analysis",
+      "Intelligent Systems"
+    ],
+    "status": "NSF-funded",
+    "links": {}
+  },
+  {
+    "kind": "Research",
+    "title": "Setting the Rules for AI: Co-designing Boundaries for Inferences",
+    "hook": "What should an AI be allowed to figure out from your email and calendar, and when should it tell you? I built a working AI assistant to show what's possible, then co-designed the rules with people living with MCI or dementia.",
+    "description": "AI assistants can now read an inbox and a calendar and draw surprisingly personal conclusions. In these co-design sessions, people living with mild cognitive impairment (MCI) or dementia went beyond choosing among options and wrote the rules themselves: what an AI may read, what it may infer, and when it should speak up.\n\nTo make that concrete, I designed and developed a working AI assistant. Using Gemini, it reads Gmail and Google Calendar and draws inferences grouped into everyday topics (Family, Coming up, Friends & social, Daily routines, Community & volunteering), each showing its source, such as \"from your calendar\" or \"from your gmail.\" It answers plain-English questions by text or voice, reads inferences aloud, and follows rules people write in their own words, like \"Only tell me about my family,\" updating its inferences to match. I built it around a synthetic persona, an older adult with family, friends, and community commitments, with made-up email and calendar data, and recorded a demo video of it in action.\n\nIn the sessions, participants watched the demo, then built rules from three card decks created in Figma: Data Sources (what can the AI read?), Inferences You Want (what matters to you?), and Timing (when do you want to know?). Combining cards into rules in their own words, they talked through which inferences felt helpful, which felt invasive, and how their rules might change as their abilities change.\n\nBuilt with Python, Gemini 2.5, the Gmail and Google Calendar APIs, Flask, and speech input and output.",
+    "image": "assets/images/projects/rules-cards.svg",
+    "tags": [
+      "Human-Computer Interaction (HCI)",
+      "Human-AI Interaction",
+      "Co-design",
+      "Gemini",
+      "Python",
+      "Privacy"
+    ],
+    "status": "NSF-funded",
+    "links": {}
+  },
+  {
+    "kind": "Research",
+    "title": "15,000+ TikTok Videos: How Older Creators Perform Age Online",
+    "hook": "Engagement data for more than 15,000 videos from 23 older-adult creators, plus 1,227 videos our team coded by hand: grandmas, grandpas, and humor that put age front and center.",
+    "description": "TikTok is usually seen as a young person's platform, yet many older adults have built large audiences there. This mixed-methods study looks at what older creators post, how they present their age, and what resonates with viewers. It is a social computing study: it examines how people use a social platform to build identity and community.\n\nQuantitative: engagement data (views, likes, comments, and shares) for more than 15,000 videos from 23 older-adult creators.\n\nQualitative: our team coded 1,227 videos from 11 creators, posted between 2019 and 2024, using qualitative content analysis, with a structured codebook covering the type of post (humor, cooking, dancing, advice, personal stories, and more), the intended audience, whether the video challenged stereotypes about aging, which TikTok features it used, and whether it felt performative or reflective.\n\nI analyzed the coded videos alongside their engagement, comparing the most- and least-engaging content. Patterns came up again and again: creators proudly playing the \"grandma\" or \"grandpa\" role, using humor to push back on age stereotypes, sharing everyday know-how, and making duets with grandchildren. I interpreted these patterns through Goffman's idea of impression management: older creators are active performers who reshape how aging looks online.",
+    "image": "assets/images/projects/tiktok-older-adults.svg",
+    "tags": [
+      "Social Computing",
+      "Mixed Methods",
+      "Content Analysis",
+      "Aging"
+    ],
+    "status": "",
+    "links": {}
+  },
+  {
+    "kind": "Research",
+    "title": "Do Younger and Older Adults Trust Alexa the Same Way?",
+    "hook": "Warm, dominant, or trustworthy? How people of different ages size up the personalities of Google Assistant, Alexa, and Siri.",
+    "description": "Voice assistants are designed with a personality, but people of different generations may read that personality differently. This comparative survey study combined existing data from older adults with new responses I collected from younger adults about Google Assistant, Alexa, and Siri, measuring perceived warmth, dominance, trust, and satisfaction.\n\nI ran reliability checks, exploratory and confirmatory factor analysis (EFA/CFA), and regression models to find what predicts trust and satisfaction across age groups. The results point to design choices for conversational AI that works for users of all ages.",
+    "image": "assets/images/projects/voice-assistants.svg",
+    "tags": [
+      "Voice Assistants",
+      "Survey Research",
+      "Factor Analysis",
+      "Trust in AI"
+    ],
+    "status": "Course project",
+    "links": {}
+  },
+  {
+    "kind": "Research",
+    "title": "Why Educational TikTok Works on Younger Adults",
+    "hook": "Why do short, relatable videos teach so well? Twenty interviews point to credibility, design, and the algorithm.",
+    "description": "A qualitative study of 20 interviews exploring how design, tone, and platform features shape younger adults' engagement with educational TikTok content. Using thematic analysis, I found patterns in how viewers judge credibility, respond to visual design, and experience the algorithm, showing how short, relatable videos build engagement and trust in learning content.",
+    "image": "assets/images/projects/edu-tiktok.svg",
+    "tags": [
+      "Qualitative Research",
+      "Interviews",
+      "Thematic Analysis",
+      "Learning"
+    ],
+    "status": "Course project",
+    "links": {}
+  },
+  {
+    "kind": "Research",
+    "title": "How People Living with Dementia Use Technology Day to Day",
+    "hook": "How do people living with dementia actually use their phones, calendars, and smart speakers? I conducted semi-structured interviews around a two-week diary study to find out.",
+    "description": "Part of my research assistantship on the NSF-funded project \"Future Proofing for Age-Related Changing Cognitive Abilities Using Smart Objects as Assistive Technologies.\"\n\nThis study looks at the technology people living with mild cognitive impairment (MCI) or dementia already rely on, such as phones, calendars, reminder apps, and smart speakers, and how it fits into their everyday lives.\n\nEach participant took part in three semi-structured interviews and a two-week diary study. Semi-structured means a guide of core questions with room to follow each person's lead. The interview after the diary started from each participant's own entries, turning what they recorded day to day into the conversation.\n\nI conducted semi-structured interviews, working from the study's interview guide while adapting follow-up questions to each person, building rapport, and drawing on their diary entries to probe specific moments from their days.",
+    "image": "assets/images/projects/embodied-ai.svg",
+    "tags": [
+      "Human-Computer Interaction (HCI)",
+      "Semi-structured Interviews",
+      "Diary Studies",
+      "Accessibility"
+    ],
+    "status": "NSF-funded",
+    "links": {}
+  },
+  {
+    "kind": "Project",
+    "title": "Smart Document Navigator",
+    "hook": "Ask a question in plain English and get an answer grounded in your own documents, in half the time.",
+    "description": "A chatbot that makes large document collections searchable in plain language using retrieval-augmented generation (RAG). It splits documents into chunks, embeds them in a FAISS vector store for fast semantic search, and uses LangChain and an LLM to generate answers grounded in the retrieved text. It cut query resolution time by 50%.",
+    "image": "assets/images/projects/smart-document-navigator.svg",
+    "tags": [
+      "RAG",
+      "LangChain",
+      "FAISS",
+      "LLMs",
+      "Python"
+    ],
+    "status": "",
+    "links": {}
+  }
+]

@@ -1,0 +1,48 @@
+[
+  {
+    "title": "From Notification to Completion: Rethinking Reminder Systems for People Living with Dementia",
+    "hook": "Why do reminders fail people living with dementia? This study names four interconnected phenomena (notification ephemerality, habituation, amnesia, and fatigue) and calls for reminder systems that support follow-through, not just notification.",
+    "authors": "Stephen Becker, Susmitha Gurram, Alisha Pradhan, Emma Dixon",
+    "venue": "ASSETS '26: The 28th International ACM SIGACCESS Conference on Computers and Accessibility · Vila Nova de Gaia, Portugal",
+    "year": "2026",
+    "status": "Accepted",
+    "type": "Full paper",
+    "role": "Co-author",
+    "award": "Honorable Mention",
+    "link": "https://doi.org/10.1145/3797867.3828979",
+    "linkLabel": "Read the paper (DOI)",
+    "about": "Reminder systems are among the most common technologies built for people living with dementia. Yet most of that work asks whether a reminder got the task done, not how people living with dementia actually experience the notifications themselves.\n\nThrough iterative interviews, six people living with mild to moderate dementia described what really happens when a reminder arrives. Four interconnected phenomena kept getting in the way:\n• Notification ephemerality: reminders vanish before there's time to take them in.\n• Notification habituation: the same reminder, seen day after day, stops registering.\n• Notification amnesia: a reminder is read, then forgotten before anyone acts on it.\n• Notification fatigue: so many reminders pile up that people tune them all out.\n\nBehind every reminder that did work was invisible work: paper checklists by the front door, sticky notes on door handles, smartwatch buzzes, alarms set again and again. When a reminder still slipped by, many participants blamed themselves.\n\nSo what would a better reminder look like? Participants imagined AI-powered reminders that adapt how and when they notify, escalate when ignored, and help see a task through to completion. Drawing on mediation theory, the paper reimagines reminders as immersive systems that share responsibility for follow-through, and weighs what that means for monitoring and surveillance. Read it to see where the next generation of reminder technology could go."
+  },
+  {
+    "title": "Used By, Not Used On: An Adaptive Systems Framework to Design Technology for and with People with Dementia",
+    "hook": "To design adaptive systems for people with MCI or dementia as their abilities change, we proposed four user-configurable modules that keep people with dementia as primary decision-makers over what a system senses, infers, does, and how it communicates.",
+    "authors": "Susmitha Gurram, Massa Belal, Shivansh Dutta, Emma Dixon, Alisha Pradhan",
+    "venue": "CSCW '26 Companion: ACM Conference on Computer-Supported Cooperative Work and Social Computing · Salt Lake City, Utah, USA",
+    "year": "2026",
+    "status": "Accepted",
+    "type": "Poster",
+    "role": "Lead author",
+    "link": "",
+    "linkLabel": "Read the paper (DOI)",
+    "about": "Adaptive systems promise support that changes as people's abilities change. But when a system senses behavior, infers needs, or acts on someone's behalf, it can also cross lines around privacy, autonomy, and control, and for people living with MCI or dementia those decisions are usually made for them, not by them. HCI already has rich ways to reason about adaptive systems (context-aware computing, mixed-initiative interaction, automation, notification design), but little connects them to designing for and with people with dementia.\n\nThis framework brings them together into four user-configurable modules, keeping people with dementia as the primary decision-makers:\n• Sensing/system input scope, what the system knows: from only what you tell it, all the way to patterns in your routine.\n• Inference scope, what it may conclude: only what you wrote, or its own inferences.\n• Assistance authority, how far it may go: suggestion-only, confirmed action, or autonomous action.\n• Output delivery strategy, how it communicates: always the same way, or adapting its timing, channel, and modality.\n\nA single leaving-home reminder shows the range. A pressure-sensing doormat can simply say \"take your keys and wallet\" without knowing who you are. Or the system can recognize you, check your calendar and the weather, and suggest a rain jacket for the community garden. Or, if you don't respond, it can turn firmer and send a text. Same moment, very different levels of privacy and help.\n\nThe framework is built for people living with MCI or dementia, but the questions it asks (what should a system sense, infer, do, and say, and who decides?) are ones anyone designing adaptive technology will face. Read the poster to see how existing assistive technologies map onto the framework.",
+    "gallery": [
+      {
+        "src": "assets/images/projects/leaving-home-architecture.png",
+        "alt": "System diagram: a doormat, camera, and microphone feed a Raspberry Pi, which uses Google Calendar, OpenWeather, and Gemini, and responds through a speaker or email.",
+        "caption": "Architecture of the leaving-home reminder prototype, from the poster."
+      }
+    ]
+  },
+  {
+    "title": "Analysis of Wavelet, Ridgelet and Curvelet Transforms on Image Denoising",
+    "hook": "Noise blurs exactly the edges and contours that matter most in an image. This study compared wavelet, ridgelet, and curvelet transforms for image denoising, and the curvelet transform proved the best fit for medical imaging.",
+    "authors": "Susmitha Gurram, et al.",
+    "venue": "International Research Journal of Engineering and Technology (IRJET)",
+    "year": "2022",
+    "status": "Published",
+    "type": "Journal article",
+    "role": "Lead author",
+    "link": "",
+    "about": "Which transform should you trust to clean up a noisy image? Noise blurs the edges and contours that carry an image's meaning, and in medical images those are the details that matter most. Wavelets, ridgelets, and curvelets each break an image into pieces at different scales and directions so the noise can be stripped away.\n\nCompared side by side in MATLAB, curvelets, which are built to follow curved edges, kept images the clearest, with about a 20% better signal-to-noise ratio. That makes them the strongest fit of the three for medical imaging."
+  }
+]

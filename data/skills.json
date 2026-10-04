@@ -1,0 +1,90 @@
+[
+  {
+    "group": "Qualitative Research",
+    "items": [
+      "Semi-structured Interviews",
+      "Diary Studies",
+      "Co-design / Participatory Design",
+      "Design Probes",
+      "Study & Protocol Design",
+      "Usability Testing",
+      "Reflexive Thematic Analysis",
+      "Qualitative Coding & Memoing",
+      "Content Analysis",
+      "Research Synthesis"
+    ]
+  },
+  {
+    "group": "Quantitative & Mixed Methods",
+    "items": [
+      "Survey Design",
+      "Regression",
+      "Factor Analysis (EFA/CFA)",
+      "Reliability Analysis",
+      "Engagement Analytics",
+      "Mixed-Methods Research"
+    ]
+  },
+  {
+    "group": "Human-Computer Interaction (HCI) & Design",
+    "items": [
+      "Human-AI Interaction",
+      "Accessibility",
+      "Assistive Technology",
+      "Adaptive Systems",
+      "User-Centered Design",
+      "Prototyping",
+      "Figma",
+      "FigJam",
+      "Miro"
+    ]
+  },
+  {
+    "group": "AI & LLM Prototyping",
+    "items": [
+      "LLMs (Gemini)",
+      "Prompt Engineering",
+      "RAG",
+      "LangChain",
+      "FAISS",
+      "Computer Vision (OpenCV, dlib)",
+      "Raspberry Pi",
+      "PyTorch",
+      "TensorFlow",
+      "scikit-learn"
+    ]
+  },
+  {
+    "group": "Programming & Data Analysis",
+    "items": [
+      "Python",
+      "SQL",
+      "C/C++",
+      "JavaScript",
+      "TypeScript",
+      "MATLAB",
+      "Pandas",
+      "NumPy",
+      "Matplotlib",
+      "Tableau",
+      "Power BI"
+    ]
+  },
+  {
+    "group": "Web, Cloud & Tools",
+    "items": [
+      "React",
+      "Node.js",
+      "Flask",
+      "REST APIs",
+      "MySQL",
+      "MongoDB",
+      "DynamoDB",
+      "AWS",
+      "GCP",
+      "Git/GitHub",
+      "Jupyter",
+      "JIRA"
+    ]
+  }
+]

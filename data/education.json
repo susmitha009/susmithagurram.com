@@ -1,0 +1,40 @@
+[
+  {
+    "degree": "Ph.D.",
+    "field": "Information Systems (Human-Computer Interaction)",
+    "institution": "New Jersey Institute of Technology",
+    "location": "Newark, NJ",
+    "end": "May 2028 (expected)",
+    "gpa": "4.00 GPA",
+    "details": []
+  },
+  {
+    "degree": "M.S.",
+    "field": "Information Technology",
+    "institution": "Arizona State University",
+    "location": "Tempe, AZ",
+    "end": "May 2024",
+    "gpa": "4.00 GPA",
+    "details": []
+  },
+  {
+    "degree": "M.Tech.",
+    "field": "Systems and Signal Processing",
+    "institution": "Jawaharlal Nehru Technological University",
+    "location": "Hyderabad, India",
+    "end": "July 2022",
+    "gpa": "9.12 GPA",
+    "details": [
+      "State Rank 15 in the M.Tech entrance examination"
+    ]
+  },
+  {
+    "degree": "B.Tech.",
+    "field": "Electronics and Communication Engineering",
+    "institution": "Jawaharlal Nehru Technological University",
+    "location": "Hyderabad, India",
+    "end": "August 2020",
+    "gpa": "7.74 GPA",
+    "details": []
+  }
+]

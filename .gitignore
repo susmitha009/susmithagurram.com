@@ -1,0 +1,19 @@
+# OS noise
+.DS_Store
+Thumbs.db
+._*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Local server logs
+*.log
+
+# Env files (just in case)
+.env
+.env.*
+
+# Local tool settings
+.claude/

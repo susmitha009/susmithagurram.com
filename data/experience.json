@@ -1,0 +1,76 @@
+[
+  {
+    "role": "Graduate Research Assistant",
+    "org": "New Jersey Institute of Technology",
+    "location": "Newark, NJ",
+    "start": "September 2025",
+    "end": "Present",
+    "summary": "",
+    "tags": [
+      "Human-Computer Interaction (HCI)",
+      "Qualitative Research",
+      "Co-design",
+      "Accessibility"
+    ],
+    "groups": [
+      {
+        "title": "NSF project: Future Proofing for Age-Related Changing Cognitive Abilities Using Smart Objects as Assistive Technologies",
+        "bullets": [
+          "Designed and developed a Gemini-powered AI assistant that draws inferences from Gmail and Google Calendar, shows the source of each inference, answers questions by text or voice, and follows plain-language rules users write about what it may infer; built a synthetic persona with mock email and calendar data and produced a demo video used as a design probe in co-design sessions where participants authored rules and boundaries for AI inferences.",
+          "Designed and developed the protocol for a 7-participant, 14-session co-design study with people living with mild cognitive impairment (MCI) or dementia; defined and co-created design cards in Figma as brainstorming probes, and conducted one-on-one remote sessions (Zoom, FigJam) moving from a shared leaving-home use case to each participant's own meaningful use case.",
+          "Applied reflexive thematic analysis: independently coded and memoed 8 of 14 session transcripts, then collaborated with the research team to refine and finalize themes, testing counterexamples and verifying quotes against transcripts.",
+          "Conducted semi-structured interviews with people living with MCI or dementia about everyday technology use (three interviews per participant around a two-week diary study), adapting follow-up probes to each participant and building the post-diary interview on their own entries.",
+          "Proposed an adaptive systems framework of four user-configurable modules (sensing, inference, assistance authority, output delivery) and designed and developed the Adaptive AI Assistant that implements it: a Raspberry Pi leaving-home reminder system integrating Gemini, dlib face recognition, Google Calendar, and weather data, with a Flask web app where each user selects their level for every module (lead-author CSCW 2026 poster)."
+        ]
+      },
+      {
+        "title": "Research assistantship",
+        "bullets": [
+          "Analyzed older adults' self-presentation on TikTok, combining engagement data for 15,000+ videos from 23 creators with a team-coded set of 1,227 videos from 11 creators.",
+          "Mentored four students (three undergraduate and one master's) on study procedures, data collection, qualitative analysis, and prototyping.",
+          "Publications: lead-author poster, CSCW 2026; co-author, ASSETS 2026 full paper (Honorable Mention Award)."
+        ]
+      }
+    ]
+  },
+  {
+    "role": "Software Developer Intern",
+    "org": "Be Uninterrupted (startup)",
+    "location": "Tempe, AZ",
+    "start": "June 2024",
+    "end": "June 2025",
+    "summary": "Built and shipped web features for an early-stage startup, working with it through an Arizona State University program.",
+    "bullets": [
+      "Turned Figma designs into responsive web applications in React and TypeScript, iterating with the design team from handoff to release.",
+      "Designed and integrated RESTful APIs to move data between user-facing features and the backend.",
+      "Built a HubSpot chatbot that automated customer engagement, cutting manual intervention by 40%.",
+      "Standardized 550+ templates with global variables, so one change updates everywhere and manual updates dropped by 80%."
+    ],
+    "tags": [
+      "React",
+      "TypeScript",
+      "REST APIs",
+      "HubSpot"
+    ]
+  },
+  {
+    "role": "Machine Learning Engineer Intern",
+    "org": "Hyundai Mobis R&D",
+    "location": "Hyderabad, India",
+    "start": "February 2022",
+    "end": "July 2022",
+    "summary": "Radar perception and object tracking for advanced driver-assistance systems (ADAS), the technology behind features like adaptive cruise control.",
+    "bullets": [
+      "Implemented C++ multi-object tracking with a Kalman Filter, Interacting Multiple Model (IMM), and Probabilistic Data Association Filter (PDAF), improving vehicle tracking accuracy by 10%.",
+      "Improved ADAS object classification by 5% through MATLAB-based feature extraction and radar data analysis.",
+      "Identified and resolved a critical bug in which a truck was classified as two separate cars, raising classification accuracy by 15% and earning recognition from the Head of Group.",
+      "Labeled and validated 5,000+ video frames against radar sensor outputs."
+    ],
+    "tags": [
+      "MATLAB",
+      "C++",
+      "ADAS",
+      "Kalman Filtering"
+    ]
+  }
+]

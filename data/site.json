@@ -1,0 +1,149 @@
+{
+  "meta": {
+    "title": "Susmitha Gurram · PhD Student, Information Systems (HCI) @ NJIT",
+    "description": "Susmitha Gurram is a mixed-methods HCI researcher and PhD student at NJIT who studies how people live with technology and designs and builds context-aware AI systems, with a focus on accessibility and aging.",
+    "url": "https://susmithagurram.com",
+    "ogImage": "assets/og-image.svg"
+  },
+  "publish": {
+    "owner": "susmitha009",
+    "repo": "susmitha009.github.io",
+    "branch": "main"
+  },
+  "pages": [
+    {
+      "id": "home",
+      "label": "About",
+      "sections": [
+        {
+          "type": "hero",
+          "source": "data/profile.json"
+        },
+        {
+          "type": "about",
+          "title": "About me",
+          "source": "data/profile.json"
+        }
+      ]
+    },
+    {
+      "id": "research",
+      "label": "Research",
+      "sections": [
+        {
+          "type": "text",
+          "title": "Research & projects",
+          "content": "I study how assistive and AI systems can adapt to people whose abilities change over time, while keeping them in control of what the system senses, infers, and does on their behalf. My process runs end to end: qualitative research to understand everyday life, co-design to shape solutions with the people who will use them, and working prototypes to test the ideas.\n\nBelow are my research projects, followed by other projects I designed and developed."
+        },
+        {
+          "type": "projects",
+          "source": "data/projects.json"
+        }
+      ]
+    },
+    {
+      "id": "publications",
+      "label": "Publications",
+      "sections": [
+        {
+          "type": "publications",
+          "title": "Publications",
+          "source": "data/publications.json"
+        }
+      ]
+    },
+    {
+      "id": "experience",
+      "label": "Experience",
+      "sections": [
+        {
+          "type": "experience",
+          "title": "Experience",
+          "source": "data/experience.json"
+        },
+        {
+          "type": "education",
+          "title": "Education",
+          "source": "data/education.json"
+        },
+        {
+          "type": "awards",
+          "title": "Honors & awards",
+          "source": "data/awards.json"
+        },
+        {
+          "type": "skills",
+          "title": "Skills",
+          "source": "data/skills.json"
+        }
+      ]
+    },
+    {
+      "id": "mentoring",
+      "label": "Mentoring",
+      "sections": [
+        {
+          "type": "highlights",
+          "title": "Mentoring & service",
+          "items": [
+            {
+              "icon": "✎",
+              "label": "Service",
+              "title": "Peer Reviewer",
+              "meta": "ACM CSCW 2026 · Poster Track",
+              "text": "Reviewed poster submissions for the ACM Conference on Computer-Supported Cooperative Work and Social Computing."
+            },
+            {
+              "icon": "✦",
+              "label": "Mentoring",
+              "title": "Research Mentor",
+              "meta": "NJIT · 2025 to present",
+              "text": "Mentored four students (three undergraduate and one master's) on study procedures, data collection, qualitative analysis, and prototype development."
+            },
+            {
+              "icon": "♥",
+              "label": "Volunteering",
+              "title": "Technical Mentor, Newark Wonder",
+              "meta": "NJIT × Newark Public Schools · Feb to Apr 2026",
+              "text": "As a technical mentor on the NJIT team, I guided high school design, data, and programming teams building an accessible planning and navigation app with and for students with developmental and cognitive disabilities, featured in a docuseries.",
+              "more": {
+                "kind": "Volunteering",
+                "status": "Technical Mentor · Feb to Apr 2026",
+                "title": "Newark Wonder: From Fear to Predictability",
+                "image": "assets/images/projects/newark-wonder.svg",
+                "tags": [
+                  "Accessibility",
+                  "Mentoring",
+                  "Co-design",
+                  "Education"
+                ],
+                "description": "As a technical mentor on the NJIT team, I guided three high school student teams and their teachers as they designed and built an accessible app for students with developmental and cognitive disabilities. Through regular mentoring calls, I helped them turn what they observed into software logic and accessible design: reducing cognitive load, designing personalization that adapts to each student, connecting the app to its data, and testing the prototype with real users.\n\nNewark Wonder is a docuseries following high school students at the Newark School of Data Science & Information Technology (Newark Public Schools) as they build technology with and for students at the New Jersey Regional Day School, who have developmental and cognitive disabilities. NJIT joined as technical advisor and mentor to the teachers and student teams.\n\nThe problem: everyday transitions, like a doctor's appointment, a haircut, or a trip to the store, can bring anxiety and decision fatigue, especially when a student doesn't know what will happen next. The project's goal, in the team's own words, was to turn \"fear into predictability\": prepare a student for a situation ahead of time and guide them through it step by step.\n\nThree student teams (design, data, and programming) built one context-aware planning and navigation app together: personalized daily schedules, step-by-step visual guidance, short \"social stories\" describing what to expect in a situation, simple screens with few words and consistent icons, and a setup view for teachers and caregivers. Along the way, the students visited the school to observe and interview, created personas and empathy maps, designed a database, built a prototype, and gathered feedback from students and teachers before a final showcase in April 2026."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "news",
+      "label": "News",
+      "sections": [
+        {
+          "type": "news",
+          "title": "News",
+          "source": "data/news.json"
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "label": "Contact",
+      "sections": [
+        {
+          "type": "contact",
+          "title": "Get in touch"
+        }
+      ]
+    }
+  ]
+}
