@@ -1,8 +1,8 @@
 {
   "name": "Susmitha Gurram",
-  "headline": "PhD Student, Human-Computer Interaction · New Jersey Institute of Technology",
+  "headline": "PhD Student, Information Systems · New Jersey Institute of Technology",
   "tagline": "HCI researcher working with people living with dementia and mild cognitive impairment to understand how they want to shape intelligent assistive technologies, preserving their autonomy and control as their abilities change. I design, build, and evaluate adaptive AI systems shaped by their needs and preferences.",
-  "bio": "I'm a PhD student in Information Systems (Human-Computer Interaction) at NJIT and a research assistant on a National Science Foundation (NSF)-funded project about future-proofing assistive technology as people's cognitive abilities change. My research centers on human-AI interaction: how people want intelligent assistants to sense, infer, and act for them, and how they can stay in control as their needs change. I lead qualitative and co-design research to answer those questions, and I build working LLM-powered prototypes to explore the answers with the people who will use them.\n\nIn my current research, I have conducted semi-structured interviews, diary studies, and co-design sessions with people living with mild cognitive impairment or dementia. I proposed an adaptive systems framework that lets people decide what an assistant senses, infers, and does on their behalf (lead-author poster, CSCW 2026), and built the systems behind my research: a Raspberry Pi assistant using Gemini, face recognition, and Google Calendar, and an assistant that draws inferences from Gmail and Calendar under rules people set themselves. I'm also a co-author of an ASSETS 2026 paper that received an Honorable Mention.\n\nBefore my PhD, I worked as a software developer for a startup and as a machine learning engineer intern at Hyundai Mobis R&D, and earned an M.S. in Information Technology at Arizona State University (4.0 GPA).\n\nI'm open to research collaborations in HCI, accessibility, and human-AI interaction. I'm also seeking PhD research internships in UX research and human-AI interaction, where I can lead qualitative and mixed-methods research and design, build, and evaluate AI prototypes.",
+  "bio": "I'm a PhD student in Information Systems at NJIT and a research assistant on a National Science Foundation (NSF)-funded project about future-proofing assistive technology as people's cognitive abilities change. My research centers on human-AI interaction: how people want intelligent assistants to sense, infer, and act for them, and how they can stay in control as their needs change. I lead qualitative and co-design research to answer those questions, and I design and build working prototypes of adaptive systems to explore the answers with the people who will use them.\n\nIn my current research, I have conducted semi-structured interviews, diary studies, and co-design sessions with people living with mild cognitive impairment or dementia. I proposed an adaptive systems framework that lets people decide what an assistant senses, infers, and does on their behalf (lead-author poster, CSCW 2026), and built the systems behind my research: a Raspberry Pi assistant using Gemini, face recognition, and Google Calendar, and an assistant that draws inferences from Gmail and Calendar under rules people set themselves. I'm also a co-author of an ASSETS 2026 paper that received an Honorable Mention.\n\nBefore my PhD, I worked as a software developer for a startup and as a machine learning engineer intern at Hyundai Mobis R&D, and earned an M.S. in Information Technology at Arizona State University (4.0 GPA).\n\nI'm open to research collaborations in HCI, accessibility, and human-AI interaction. I'm also seeking PhD research internships in UX research and human-AI interaction, where I can lead qualitative and mixed-methods research and design, build, and evaluate AI prototypes.",
   "photo": "assets/images/profile.svg",
   "location": "Newark, NJ, USA",
   "interests": [
@@ -43,9 +43,9 @@
     {
       "label": "Build",
       "items": [
-        "AI assistants with LLMs (Gemini)",
+        "Adaptive & context-aware systems",
         "Python",
-        "RAG",
+        "Flask",
         "React & TypeScript",
         "Raspberry Pi",
         "Computer vision"

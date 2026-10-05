@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Susmitha Gurram · PhD Student, Human-Computer Interaction @ NJIT",
-    "description": "Susmitha Gurram is an HCI researcher and PhD student at NJIT who studies how people want AI assistants to sense, infer, and act on their behalf, combining qualitative and co-design research with AI prototyping for accessibility and aging.",
+    "title": "Susmitha Gurram · PhD Student, Information Systems @ NJIT",
+    "description": "Susmitha Gurram is an HCI researcher and PhD student in Information Systems at NJIT who studies how people want AI assistants to sense, infer, and act on their behalf, combining qualitative and co-design research with prototyping of adaptive systems for accessibility and aging.",
     "url": "https://susmithagurram.com",
     "ogImage": "assets/og-image.svg"
   },
@@ -105,7 +105,7 @@
               "label": "Volunteering",
               "title": "Technical Mentor, Newark Wonder",
               "meta": "NJIT × Newark Public Schools · Feb to Apr 2026",
-              "text": "As a technical mentor on the NJIT team, I guided high school design, data, and programming teams building an accessible planning and navigation app with and for students with developmental and cognitive disabilities, featured in a docuseries.",
+              "text": "Technical mentor on the NJIT team, guiding high school design, data, and programming teams as they built an accessible planning and navigation app with and for students with developmental and cognitive disabilities, featured in a docuseries.",
               "more": {
                 "kind": "Volunteering",
                 "status": "Technical Mentor · Feb to Apr 2026",
@@ -117,7 +117,7 @@
                   "Co-design",
                   "Education"
                 ],
-                "description": "As a technical mentor on the NJIT team, I guided three high school student teams and their teachers as they designed and built an accessible app for students with developmental and cognitive disabilities. Through regular mentoring calls, I helped them turn what they observed into software logic and accessible design: reducing cognitive load, designing personalization that adapts to each student, connecting the app to its data, and testing the prototype with real users.\n\nNewark Wonder is a docuseries following high school students at the Newark School of Data Science & Information Technology (Newark Public Schools) as they build technology with and for students at the New Jersey Regional Day School, who have developmental and cognitive disabilities. NJIT joined as technical advisor and mentor to the teachers and student teams.\n\nThe problem: everyday transitions, like a doctor's appointment, a haircut, or a trip to the store, can bring anxiety and decision fatigue, especially when a student doesn't know what will happen next. The project's goal, in the team's own words, was to turn \"fear into predictability\": prepare a student for a situation ahead of time and guide them through it step by step.\n\nThree student teams (design, data, and programming) built one context-aware planning and navigation app together: personalized daily schedules, step-by-step visual guidance, short \"social stories\" describing what to expect in a situation, simple screens with few words and consistent icons, and a setup view for teachers and caregivers. Along the way, the students visited the school to observe and interview, created personas and empathy maps, designed a database, built a prototype, and gathered feedback from students and teachers before a final showcase in April 2026."
+                "description": "Technical mentor on the NJIT team, guiding high school student teams as they designed and built an accessible app for students with developmental and cognitive disabilities. Regular mentoring calls focused on turning what the teams observed into software logic and accessible design: reducing cognitive load, designing personalization that adapts to each student, connecting the app to its data, and testing the prototype with real users.\n\nNewark Wonder is a docuseries following high school students at the Newark School of Data Science & Information Technology (Newark Public Schools) as they build technology with and for students at the New Jersey Regional Day School, who have developmental and cognitive disabilities. NJIT joined as technical advisor and mentor to the teachers and student teams.\n\nThe problem: everyday transitions, like a doctor's appointment, a haircut, or a trip to the store, can bring anxiety and decision fatigue, especially when a student doesn't know what will happen next. The project's goal, in the team's own words, was to turn \"fear into predictability\": prepare a student for a situation ahead of time and guide them through it step by step.\n\nThree student teams (design, data, and programming) built one context-aware planning and navigation app together: personalized daily schedules, step-by-step visual guidance, short \"social stories\" describing what to expect in a situation, simple screens with few words and consistent icons, and a setup view for teachers and caregivers. Along the way, the students visited the school to observe and interview, created personas and empathy maps, designed a database, built a prototype, and gathered feedback from students and teachers before a final showcase in April 2026."
               }
             }
           ]

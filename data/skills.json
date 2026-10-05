@@ -40,10 +40,9 @@
     ]
   },
   {
-    "group": "AI & LLM Prototyping",
+    "group": "AI Systems & Prototyping",
     "items": [
-      "LLMs (Gemini)",
-      "Prompt Engineering",
+      "Gemini API",
       "RAG",
       "LangChain",
       "FAISS",
