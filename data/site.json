@@ -126,11 +126,11 @@
     },
     {
       "id": "news",
-      "label": "News",
+      "label": "News & Updates",
       "sections": [
         {
           "type": "news",
-          "title": "News",
+          "title": "News & updates",
           "source": "data/news.json"
         }
       ]
