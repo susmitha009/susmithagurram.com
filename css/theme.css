@@ -413,3 +413,7 @@ body { font-size: 1rem; line-height: 1.7; }
   .nav { position: relative; }
   .page-part { scroll-margin-top: 72px; }
 }
+
+/* publication tiles: no gap between title and venue; extra space falls at the bottom */
+.pub-card .pub-title { flex: none; }
+.pub-card .pub-hook { flex: 1; }
