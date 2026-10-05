@@ -174,6 +174,7 @@ const RENDERERS = {
               <span class="card-more">Read more →</span>
               ${pub.link ? `<a class="card-link" href="${esc(pub.link)}" target="_blank" rel="noopener">${esc(pub.linkLabel || linkLabelFor(pub.link))} ${ICONS.external}</a>` : ""}
             </div>
+            ${pub.link && pub.linkNote ? `<p class="link-note">${esc(pub.linkNote)}</p>` : ""}
           </article>`;
         }).join("")}
       </div>`;
@@ -299,7 +300,7 @@ function projectModalHTML(project) {
 function pubModalHTML(pub) {
   const authors = pub.authors ? esc(pub.authors).replace(OWNER_NAME, "<strong>$1</strong>") : "";
   const link = pub.link
-    ? `<div class="modal-links"><a href="${esc(pub.link)}" target="_blank" rel="noopener">${esc(pub.linkLabel || linkLabelFor(pub.link))} ${ICONS.external}</a></div>`
+    ? `<div class="modal-links"><a href="${esc(pub.link)}" target="_blank" rel="noopener">${esc(pub.linkLabel || linkLabelFor(pub.link))} ${ICONS.external}</a></div>${pub.linkNote ? `<p class="link-note">${esc(pub.linkNote)}</p>` : ""}`
     : "";
   return `
     <div class="modal-content modal-pub">

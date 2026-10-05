@@ -418,3 +418,4 @@ body { font-size: 1rem; line-height: 1.7; }
 /* publication tiles: no gap between title and venue; extra space falls at the bottom */
 .pub-card .pub-title { flex: none; }
 .pub-card .pub-hook { flex: 1; }
+.link-note { font-size: 0.8rem; color: var(--muted); margin: 0.3rem 0 0; }
