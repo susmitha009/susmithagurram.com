@@ -11,8 +11,7 @@
     "award": "Honorable Mention",
     "link": "https://doi.org/10.1145/3797867.3828979",
     "linkLabel": "Read the paper (DOI)",
-    "about": "Reminder systems are among the most common technologies built for people living with dementia. Yet most of that work asks whether a reminder got the task done, not how people living with dementia actually experience the notifications themselves.\n\nThrough iterative interviews, six people living with mild to moderate dementia described what really happens when a reminder arrives. Four interconnected phenomena kept getting in the way:\n• Notification ephemerality: reminders vanish before there's time to take them in.\n• Notification habituation: the same reminder, seen day after day, stops registering.\n• Notification amnesia: a reminder is read, then forgotten before anyone acts on it.\n• Notification fatigue: so many reminders pile up that people tune them all out.\n\nKeeping reminders working took a lot of invisible work: paper checklists by the front door, sticky notes on door handles, smartwatch buzzes, alarms set again and again. When a reminder still slipped by, many participants blamed themselves.\n\nSo what would a better reminder look like? Participants imagined AI-powered reminders that adapt how and when they notify, escalate when ignored, and help see a task through to completion. Drawing on mediation theory, the paper reimagines reminders as immersive systems that share responsibility for follow-through, and weighs what that means for monitoring and surveillance. Read it to see where the next generation of reminder technology could go.",
-    "linkNote": "Link opens once the paper is published in the ACM Digital Library."
+    "about": "Reminder systems are among the most common technologies built for people living with dementia. Yet most of that work asks whether a reminder got the task done, not how people living with dementia actually experience the notifications themselves.\n\nThrough iterative interviews, six people living with mild to moderate dementia described what really happens when a reminder arrives. Four interconnected phenomena kept getting in the way:\n• Notification ephemerality: reminders vanish before there's time to take them in.\n• Notification habituation: the same reminder, seen day after day, stops registering.\n• Notification amnesia: a reminder is read, then forgotten before anyone acts on it.\n• Notification fatigue: so many reminders pile up that people tune them all out.\n\nKeeping reminders working took a lot of invisible work: paper checklists by the front door, sticky notes on door handles, smartwatch buzzes, alarms set again and again. When a reminder still slipped by, many participants blamed themselves.\n\nSo what would a better reminder look like? Participants imagined AI-powered reminders that adapt how and when they notify, escalate when ignored, and help see a task through to completion. Drawing on mediation theory, the paper reimagines reminders as immersive systems that share responsibility for follow-through, and weighs what that means for monitoring and surveillance. Read it to see where the next generation of reminder technology could go."
   },
   {
     "title": "Used By, Not Used On: An Adaptive Systems Framework to Design Technology for and with People with Dementia",
@@ -32,8 +31,7 @@
         "alt": "System diagram: a doormat, camera, and microphone feed a Raspberry Pi, which uses Google Calendar, OpenWeather, and Gemini, and responds through a speaker or email.",
         "caption": "Architecture of the leaving-home reminder prototype, from the poster."
       }
-    ],
-    "linkNote": "Link opens once the paper is published in the ACM Digital Library."
+    ]
   },
   {
     "title": "Analysis of Wavelet, Ridgelet and Curvelet Transforms on Image Denoising",
