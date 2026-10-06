@@ -419,3 +419,25 @@ body { font-size: 1rem; line-height: 1.7; }
 .pub-card .pub-title { flex: none; }
 .pub-card .pub-hook { flex: 1; }
 .link-note { font-size: 0.8rem; color: var(--muted); margin: 0.3rem 0 0; }
+
+/* ---------- LinkedIn button: italic text, color change and sparkles on click ---------- */
+.linkedin-btn { position: relative; overflow: visible; }
+.linkedin-btn em { font-style: italic; }
+.linkedin-btn:active, .linkedin-btn.clicked { background: var(--accent-strong); color: #fff; transform: scale(0.97); }
+[data-theme="dark"] .linkedin-btn:active, [data-theme="dark"] .linkedin-btn.clicked { color: #06231d; }
+.sparkles { position: absolute; left: 50%; top: 50%; pointer-events: none; }
+.sparkles span {
+  position: absolute; left: 0; top: 0; font-size: 0.95rem; color: var(--accent);
+  animation: sparkle-burst 0.8s ease-out forwards;
+}
+@keyframes sparkle-burst {
+  0% { transform: translate(-50%, -50%) scale(0.4); opacity: 1; }
+  100% { transform: translate(calc(-50% + var(--dx)), calc(-50% + var(--dy))) scale(1.1) rotate(90deg); opacity: 0; }
+}
+
+/* ---------- popup close (×): clear hover and click feedback in both themes ---------- */
+.modal-close { transition: background 0.15s, color 0.15s, border-color 0.15s, transform 0.1s; }
+.modal-close:hover, .modal-close:focus-visible { background: var(--accent-soft); color: var(--accent-strong); border-color: var(--accent); }
+.modal-close:active { background: var(--accent); color: #fff; border-color: var(--accent); transform: scale(0.9); }
+[data-theme="dark"] .modal-close:hover, [data-theme="dark"] .modal-close:focus-visible { background: #2a3a33; color: #fff; }
+[data-theme="dark"] .modal-close:active { color: #06231d; }

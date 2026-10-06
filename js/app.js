@@ -78,7 +78,7 @@ const RENDERERS = {
           <h1 class="hero-name">${esc(p.name)}</h1>
           <p class="hero-tagline">${esc(p.tagline)}</p>
           <div class="hero-ctas">
-            <a class="btn btn-primary" href="#research">See my work</a>
+            <a class="btn btn-primary" href="#research">Explore my research</a>
           </div>
           <div class="hero-socials">${socials}</div>
         </div>
@@ -265,7 +265,7 @@ const RENDERERS = {
     return `
       <div class="contact-simple">
         <p>Whether it's research collaboration, a question about my work, speaking, or industry opportunities, I'd love to hear from you. You can find me on LinkedIn.</p>
-        <a class="btn btn-primary linkedin-btn" href="https://www.linkedin.com/in/susmitha009" target="_blank" rel="noopener">${ICONS.linkedin} Message me on LinkedIn</a>
+        <a class="btn btn-primary linkedin-btn" href="https://www.linkedin.com/in/susmitha009" target="_blank" rel="noopener">${ICONS.linkedin} <em>Let’s connect on LinkedIn!</em></a>
       </div>`;
   }
 };
@@ -388,8 +388,32 @@ async function renderPage() {
   });
 
 
+  const li = app.querySelector(".linkedin-btn");
+  if (li) li.addEventListener("click", () => sparkle(li));
+
   initScrollSpy();
   scrollToHash(false);
+}
+
+// A small burst of sparkles around a button when it is clicked.
+function sparkle(el) {
+  el.classList.add("clicked");
+  setTimeout(() => el.classList.remove("clicked"), 900);
+  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  const wrap = document.createElement("span");
+  wrap.className = "sparkles";
+  wrap.setAttribute("aria-hidden", "true");
+  for (let i = 0; i < 8; i++) {
+    const s = document.createElement("span");
+    s.textContent = "✦";
+    const angle = (Math.PI * 2 * i) / 8;
+    s.style.setProperty("--dx", `${Math.cos(angle) * 70}px`);
+    s.style.setProperty("--dy", `${Math.sin(angle) * 34}px`);
+    s.style.animationDelay = `${i * 25}ms`;
+    wrap.appendChild(s);
+  }
+  el.appendChild(wrap);
+  setTimeout(() => wrap.remove(), 1000);
 }
 
 // Highlight the nav link for the part of the page currently on screen:
