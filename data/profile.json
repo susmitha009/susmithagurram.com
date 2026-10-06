@@ -43,6 +43,7 @@
     {
       "label": "Build",
       "items": [
+        "AI agents (Gemini API)",
         "Adaptive & context-aware systems",
         "Python",
         "Flask",
