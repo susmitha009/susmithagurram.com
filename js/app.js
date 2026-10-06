@@ -265,7 +265,7 @@ const RENDERERS = {
     return `
       <div class="contact-simple">
         <p>Whether it's research collaboration, a question about my work, speaking, or industry opportunities, I'd love to hear from you. You can find me on LinkedIn.</p>
-        <a class="btn btn-primary linkedin-btn" href="https://www.linkedin.com/in/susmitha009" target="_blank" rel="noopener">${ICONS.linkedin} <em>Let’s connect on LinkedIn!</em></a>
+        <a class="btn btn-primary linkedin-btn" aria-label="Let’s connect on LinkedIn" href="https://www.linkedin.com/in/susmitha009" target="_blank" rel="noopener">${ICONS.linkedin} Let’s connect!</a>
       </div>`;
   }
 };
