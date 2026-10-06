@@ -16,11 +16,11 @@
       {
         "title": "NSF project: Future Proofing for Age-Related Changing Cognitive Abilities Using Smart Objects as Assistive Technologies",
         "bullets": [
-          "Designed and developed a Gemini-powered AI assistant that draws inferences from Gmail and Google Calendar, shows the source of each inference, answers questions by text or voice, and follows plain-language rules users write about what it may infer; built a synthetic persona with mock email and calendar data and produced a demo video used as a design probe in co-design sessions where participants authored rules and boundaries for AI inferences.",
-          "Designed and developed the protocol for a 7-participant, 14-session co-design study with people living with mild cognitive impairment (MCI) or dementia; defined and co-created design cards in Figma as brainstorming probes, and conducted one-on-one remote sessions (Zoom, FigJam) moving from a shared leaving-home use case to each participant's own meaningful use case.",
+          "Built an AI assistant that infers context from users' Gmail and Google Calendar (Gemini API, Python, Flask), citing the source of each inference, answering text and voice queries, and enforcing user-written natural-language rules on what it may infer; created a synthetic persona dataset and demo video used as a design probe in co-design sessions on boundaries for AI inferences.",
+          "Planned a 7-participant, 14-session co-design study with people living with mild cognitive impairment (MCI) or dementia and developed the study protocol; designed design cards in Figma with collaborators as probes, and conducted one-on-one remote co-design sessions (Zoom, FigJam), two per participant, moving from a shared leaving-home use case to each participant's own meaningful use case.",
           "Applied reflexive thematic analysis: independently coded and memoed 8 of 14 session transcripts, then collaborated with the research team to refine and finalize themes, testing counterexamples and verifying quotes against transcripts.",
           "Conducted semi-structured interviews with people living with MCI or dementia about everyday technology use (three interviews per participant around a two-week diary study), adapting follow-up probes to each participant and building the post-diary interview on their own entries.",
-          "Proposed an adaptive systems framework of four user-configurable modules (sensing, inference, assistance authority, output delivery) and designed and developed the Adaptive AI Assistant that implements it: a Raspberry Pi leaving-home reminder system integrating Gemini, dlib face recognition, Google Calendar, and weather data, with a Flask web app where each user selects their level for every module (lead-author CSCW 2026 poster)."
+          "Proposed an adaptive systems framework of four user-configurable modules (sensing, inference, assistance authority, output delivery), published as a lead-author CSCW 2026 poster; built the Adaptive AI Assistant that implements it, a Raspberry Pi leaving-home reminder system integrating the Gemini API, dlib face recognition, Google Calendar, and weather data, with a Flask web app for configuring each module per user."
         ]
       },
       {
@@ -63,7 +63,7 @@
     "bullets": [
       "Implemented C++ multi-object tracking with a Kalman Filter, Interacting Multiple Model (IMM), and Probabilistic Data Association Filter (PDAF), improving vehicle tracking accuracy by 10%.",
       "Improved ADAS object classification by 5% through MATLAB-based feature extraction and radar data analysis.",
-      "Identified and resolved a critical bug in which a truck was classified as two separate cars, raising classification accuracy by 15% and earning recognition from the Head of Group.",
+      "Identified and resolved a critical bug in which a truck was classified as two separate cars, raising classification accuracy by 15%.",
       "Labeled and validated 5,000+ video frames against radar sensor outputs."
     ],
     "tags": [
