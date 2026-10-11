@@ -16,20 +16,16 @@
       {
         "title": "NSF project: Future Proofing for Age-Related Changing Cognitive Abilities Using Smart Objects as Assistive Technologies",
         "bullets": [
-          "Designed and built an AI agent (Python, Flask, Gemini API, Gmail and Google Calendar APIs) that draws inferences from a user's email and calendar, organizes them into everyday categories (family, daily routines, friends and social life, community, upcoming plans) with the source of each, answers questions by voice or text, and lets users set rules and boundaries in plain language that the agent applies to its inferences in real time.",
-          "Used the agent as a design probe in co-design sessions with people living with MCI or dementia: demonstrated it on a synthetic persona dataset, showing how it answers questions and how its inferences change when a rule is applied, then led participants in authoring their own rules for what the agent may read, what it may infer, and when it should share, using Data Sources, Inferences, and Timing card decks; conducted follow-up reflection interviews.",
-          "Led a 7-participant, 14-session co-design study with people living with MCI or dementia as lead PhD researcher: developed the study protocols, mentored an undergraduate researcher in designing the Figma design cards used as probes, and conducted the majority of one-on-one remote sessions (Zoom, FigJam), moving from a shared leaving-home use case to each participant's own meaningful use case.",
-          "Analyzed co-design data with reflexive thematic analysis: independently coded and memoed the majority of session transcripts, then refined and finalized themes with the research team, testing counterexamples and verifying quotes.",
-          "Conducted semi-structured interviews with people living with MCI or dementia on everyday technology use (three per participant, paired with a two-week diary study), tailoring follow-up probes and grounding post-diary interviews in each participant's entries.",
-          "Proposed an adaptive systems framework of four user-configurable modules (sensing, inference, assistance authority, output delivery), presented as a lead-author CSCW 2026 poster, and built the Raspberry Pi leaving-home reminder system that implements it (Gemini API, dlib face recognition, Google Calendar, weather data, Flask configuration app)."
+          "Designed and built an AI agent (Python, Flask, Gemini, Gmail and Google Calendar APIs) that infers everyday context from a user's email and calendar, answers questions by voice or text, and lets people set plain-language rules it applies to its inferences in real time.",
+          "Led a 7-participant, 14-session co-design study with people living with MCI or dementia as lead PhD researcher: developed the protocols, used the agent as a design probe for participant-authored privacy rules, ran one-on-one remote sessions (Zoom, FigJam), mentored an undergraduate researcher, and paired three semi-structured interviews per participant with a two-week diary study.",
+          "Analyzed the data with reflexive thematic analysis and proposed an adaptive-systems framework of four user-configurable modules (sensing, inference, assistance authority, output delivery), implemented as a Raspberry Pi leaving-home reminder system (Gemini, dlib face recognition, Google Calendar, weather, Flask)."
         ]
       },
       {
         "title": "Research Assistant",
         "bullets": [
           "Analyzed older adults' self-presentation on TikTok, combining engagement data for 15,000+ videos from 23 creators with a team-coded set of 1,227 videos from 11 creators.",
-          "Mentored four undergraduate and graduate students across research and prototyping projects, from study procedures and qualitative analysis to building working prototypes.",
-          "Publications: lead-author poster, CSCW 2026; co-author, ASSETS 2026 full paper (Honorable Mention Award)."
+          "Mentored four undergraduate and graduate students across research and prototyping projects, from study procedures and qualitative analysis to building working prototypes."
         ]
       }
     ]
