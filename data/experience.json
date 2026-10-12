@@ -39,7 +39,7 @@
     "end": "June 2025",
     "summary": "Built and shipped web features for an early-stage startup, working with it through an Arizona State University program.",
     "bullets": [
-      "Turned Figma designs into responsive web applications in React and TypeScript, iterating with the design team from handoff to release.",
+      "Built responsive, user-facing web applications in React and TypeScript from Figma designs.",
       "Designed and integrated RESTful APIs to move data between user-facing features and the backend.",
       "Built a HubSpot chatbot that automated customer engagement, cutting manual intervention by 40%.",
       "Standardized 550+ templates with global variables, so one change updates everywhere and manual updates dropped by 80%."
