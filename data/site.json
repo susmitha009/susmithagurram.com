@@ -53,8 +53,8 @@
       ]
     },
     {
-      "id": "experience",
-      "label": "Experience",
+      "id": "cv",
+      "label": "CV",
       "sections": [
         {
           "type": "experience",
@@ -62,38 +62,15 @@
           "source": "data/experience.json"
         },
         {
-          "type": "skills",
-          "title": "Skills",
-          "source": "data/skills.json"
-        }
-      ]
-    },
-    {
-      "id": "education",
-      "label": "Education",
-      "sections": [
-        {
           "type": "education",
           "title": "Education",
           "source": "data/education.json"
-        }
-      ]
-    },
-    {
-      "id": "awards",
-      "label": "Awards",
-      "sections": [
+        },
         {
-          "type": "awards",
-          "title": "Honors & awards",
-          "source": "data/awards.json"
-        }
-      ]
-    },
-    {
-      "id": "mentoring",
-      "label": "Mentoring",
-      "sections": [
+          "type": "skills",
+          "title": "Skills",
+          "source": "data/skills.json"
+        },
         {
           "type": "highlights",
           "title": "Mentoring & service",
@@ -133,6 +110,11 @@
               }
             }
           ]
+        },
+        {
+          "type": "awards",
+          "title": "Honors & awards",
+          "source": "data/awards.json"
         }
       ]
     },
