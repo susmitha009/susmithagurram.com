@@ -16,15 +16,15 @@
       {
         "title": "NSF project: Future Proofing for Age-Related Changing Cognitive Abilities Using Smart Objects as Assistive Technologies",
         "bullets": [
-          "Designed and built an AI agent (Python, Flask, Gemini, Gmail and Google Calendar APIs) that infers everyday context from a user's email and calendar, answers questions by voice or text, and lets people set plain-language rules it applies to its inferences in real time.",
-          "Led a 7-participant, 14-session co-design study with people living with MCI or dementia as lead PhD researcher: developed the protocols, used the agent as a design probe for participant-authored privacy rules, ran one-on-one remote sessions (Zoom, FigJam), mentored an undergraduate researcher, and paired three semi-structured interviews per participant with a two-week diary study.",
-          "Analyzed the data with reflexive thematic analysis and proposed an adaptive-systems framework of four user-configurable modules (sensing, inference, assistance authority, output delivery), implemented as a Raspberry Pi leaving-home reminder system (Gemini, dlib face recognition, Google Calendar, weather, Flask)."
+          "Led human-centered research as lead PhD researcher, running a 7-participant, 14-session co-design study with people living with MCI or dementia (semi-structured interviews, a two-week diary study, and design probes) and applying reflexive thematic analysis to identify user needs, preferences, and design implications for adaptive AI systems.",
+          "Designed, developed, and evaluated a context-aware AI agent (Python, Flask, Gemini API, Gmail and Google Calendar APIs) that draws inferences from a user's email and calendar and dynamically applies user-defined rules governing information access, inference, and sharing.",
+          "Developed an embodied AI prototype (Raspberry Pi, Gemini, facial recognition, Google Calendar) supporting configurable, multimodal leaving-home reminders, and proposed an adaptive-systems framework of four user-configurable modules (sensing, inference, assistance authority, output delivery)."
         ]
       },
       {
         "title": "Research Assistant",
         "bullets": [
-          "Analyzed older adults' self-presentation on TikTok, combining engagement data for 15,000+ videos from 23 creators with a team-coded set of 1,227 videos from 11 creators.",
+          "Conducted mixed-methods research on older adults' digital self-presentation on TikTok, analyzing engagement metrics for 15,000+ videos from 23 creators and qualitatively coding 1,227 videos from 11 creators.",
           "Mentored four undergraduate and graduate students across research and prototyping projects, from study procedures and qualitative analysis to building working prototypes."
         ]
       }
