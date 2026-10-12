@@ -8,6 +8,7 @@
     "summary": "",
     "tags": [
       "Human-Computer Interaction (HCI)",
+      "Human-AI Interaction",
       "Qualitative Research",
       "Co-design",
       "Accessibility"
@@ -16,7 +17,7 @@
       {
         "title": "NSF project: Future Proofing for Age-Related Changing Cognitive Abilities Using Smart Objects as Assistive Technologies",
         "bullets": [
-          "Led human-centered research as lead PhD researcher, running a 7-participant, 14-session co-design study with people living with MCI or dementia (semi-structured interviews, a two-week diary study, and design probes) and applying reflexive thematic analysis to identify user needs, preferences, and design implications for adaptive AI systems.",
+          "Led human-centered research as lead PhD researcher, conducting a 7-participant, 14-session co-design study with people living with MCI or dementia (semi-structured interviews, a two-week diary study, and design probes) and using reflexive thematic analysis to identify user needs, preferences, and design implications for adaptive AI systems.",
           "Designed, developed, and evaluated a context-aware AI agent (Python, Flask, Gemini API, Gmail and Google Calendar APIs) that draws inferences from a user's email and calendar and dynamically applies user-defined rules governing information access, inference, and sharing.",
           "Developed an embodied AI prototype (Raspberry Pi, Gemini, facial recognition, Google Calendar) supporting configurable, multimodal leaving-home reminders, and proposed an adaptive-systems framework of four user-configurable modules (sensing, inference, assistance authority, output delivery)."
         ]
